@@ -1,0 +1,19 @@
+{
+  "name": "e-minimal-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "nodemon src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars-helpers": "^0.10.0",
+    "hbs": "^4.1.2"
+  }
+}

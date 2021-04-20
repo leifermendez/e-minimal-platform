@@ -1,0 +1,76 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-weight: 400;
+    color: #23232c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-bg{
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    box-shadow: 0 0 10px #b0b0b03b;
+    border: solid 1px white;
+}
+
+.icon-shared{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: .5rem;
+    color: white;
+    display: flex;
+    opacity: 0;
+    font-size: 2rem;
+    justify-content: space-around;
+}
+
+.icon-shared .icon-bubble{
+    background-color: #4caf50;
+    border-radius: 4rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 3px;
+}
+
+.image-bg:hover .icon-shared{
+    opacity: .85;
+}
+
+.image-bg:hover{
+    box-shadow: 0 0 10px #b0b0b03b;
+    border: solid 1px #0000000a;
+}
+
+.image-bg img{
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    background-color: #fcfcfc;
+}
+
+.badge-new{
+    position: absolute;
+    background-color: #ff6962;
+    padding: .35rem .35rem;
+    color: white;
+    font-size: .85rem;
+    font-weight: 500;
+    z-index: 1;
+}
+.price-block{
+    text-align: center;
+    padding: 1rem .25rem;
+    font-weight: 600;
+}

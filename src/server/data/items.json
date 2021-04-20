@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Iphone X",
+        "badge": "Nuevo",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_704539-MLM43486948950_092020-O.webp"
+        ],
+        "price": "100 USD"
+    },
+    {
+        "name": "Laptop Hp 14 Amd Ryzen 3 4gb",
+        "badge": "Usado",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_670319-MLM44998682431_022021-O.webp"
+        ],
+        "price": "100 USD"
+    },
+    {
+        "name": "Sillon Oficina, Homeoffice",
+        "badge": "Usado",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_772603-MLM41493832492_042020-O.webp"
+        ],
+        "price": "100 USD"
+    },
+    {
+        "name": "Zte Blade A3 2020 4g",
+        "badge": "Usado",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_786600-MLM44018537851_112020-O.webp"
+        ],
+        "price": "100 USD"
+    },
+    {
+        "name": "Reloj Inteligente Deportivo Impermeable Con Bluetooth",
+        "badge": "Nuevo",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_610800-MLM43278257447_082020-O.webp"
+        ],
+        "price": "100 USD"
+    },
+    {
+        "name": "Vestido Camisero",
+        "badge": "Nuevo",
+        "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_665989-MLM45408574874_042021-O.webp"
+        ],
+        "price": "100 USD"
+    }
+]

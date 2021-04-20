@@ -1,0 +1,38 @@
+{{> layout}}
+
+<body>
+    {{!-- --}}
+    {{> header}}
+
+    <section class="col-12 p-3">
+        <div class="row">
+            {{#each items}}
+            <div class="col-xl-2 col-lg-3 col-md-4 col-12 col-sm-6 p-3 block-item animate__animated animate__fadeInDown"
+                style="animation-delay:{{math @index '/' 10}}s;">
+                {{#if this.badge}}
+                <span class="badge-new">{{this.badge}}</span>
+                {{/if}}
+                <a href="http://google.com" target="_blank">
+                    <div class="image-bg" style="background-image: url({{this.images.[0]}})">
+                        <div class="icon-shared">
+                            <div class="icon-bubble"><i class="uil uil-whatsapp"></i></div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="price-block">
+                    <div class="font-weight-normal">{{this.name}}</div>
+                    <div class="font-weight-bold">{{this.price}}</div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+
+    </section>
+
+
+    {{!-- --}}
+    {{> footer}}
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.section-header{
+    background-color: white;    
+    box-shadow:0 0 20px #9f9f9f42;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.section-header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    font-weight: 500;
+    align-items: center;
+    align-content: center;
+
+}
+
+.section-header nav .nav-list{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding: .5rem 1rem;
+}
+
+.section-header nav a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+.section-header nav .nav-list li{
+    padding: .25rem;
+}
+
+.section-header .title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
