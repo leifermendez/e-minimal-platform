@@ -45,7 +45,6 @@ app.get("/ws", (req, res) => {
 
 
 
-
 /**
  * Revisamos si existe archivo con credenciales WS!
  */
