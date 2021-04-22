@@ -93,8 +93,6 @@ const withSession = () => {
 
     });
 
-
-
     client.on('auth_failure', () => {
         spinner.stop();
         console.log('** Error de autentificacion vuelve a generar el QRCODE (Debes Borrar el archivo session.json) **');
