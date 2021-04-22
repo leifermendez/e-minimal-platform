@@ -9,7 +9,7 @@ const config = require('./data/config.json')
 const { withOutSession, withSession } = require('./ws')
 
 const app = express();
-let PORT = 8080;
+const PORT = process.env.PORT || 8080;
 const SESSION_FILE_PATH = './session.json';
 const publicPath = path.join(__dirname, "../../public");
 const partialPath = path.join(__dirname, "../views/partials");
