@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 const math = (lvalue, operator, rvalue) => {
     lvalue = parseFloat(lvalue);
     rvalue = parseFloat(rvalue);
@@ -10,4 +12,13 @@ const math = (lvalue, operator, rvalue) => {
     }[operator];
 }
 
-module.exports = { math }
+const removeFile = (path) => {
+    try {
+        fs.unlinkSync(path)
+        //file removed
+    } catch (err) {
+        return;
+    }
+}
+
+module.exports = { math, removeFile }

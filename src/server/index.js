@@ -1,7 +1,7 @@
 require('dotenv').config()
 const fs = require('fs');
 const express = require("express");
-const { math } = require('./helpers')
+const { math, removeFile } = require('./helpers')
 const path = require("path");
 const hbs = require("hbs");
 const dataItems = require('./data/items.json')
@@ -11,6 +11,7 @@ const { withOutSession, withSession } = require('./ws')
 const app = express();
 const PORT = process.env.PORT || 8080;
 const SESSION_FILE_PATH = './session.json';
+const QR_PATH = path.join(__dirname, "../../public") + '/qr-code.svg';
 const publicPath = path.join(__dirname, "../../public");
 const partialPath = path.join(__dirname, "../views/partials");
 const viewPath = path.join(__dirname, "../views");
@@ -37,11 +38,19 @@ app.get("/", (req, res) => {
 });
 
 app.get("/ws", (req, res) => {
-    console.log("RENDERING THE ABOUT PAGE");
+    console.log("RENDERING QR");
     res.render("ws.hbs", {
         pageName: "About Page"
     });
 });
+
+app.get("/re-session", (req, res) => {
+    console.log("RENDERING RE-SESSION");
+    removeFile(SESSION_FILE_PATH)
+    removeFile(QR_PATH)
+    res.redirect(200, '/ws');
+});
+
 
 
 
