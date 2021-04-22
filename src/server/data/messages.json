@@ -1,0 +1,12 @@
+{
+    "ERROR": [
+        "Ups no puedo conmprenderte intenta con *Hola*"
+    ],
+    "MESSAGE_OK": [
+        "Dentro de poco te estaremos llamando. Gracias"
+    ],
+    "GREETINGS": [
+        "Hola y bienvenido a TIENDA_WS recuerda que todos nuestros articulos los puedes ver en",
+        "%HOME_URL%"
+    ]
+}

@@ -1,1 +1,4 @@
 node_modules/*
+tmp/*
+src/chats/*
+!src/chats/.gitkeep

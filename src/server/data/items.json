@@ -1,50 +1,34 @@
 [
     {
-        "name": "Iphone X",
-        "badge": "Nuevo",
-        "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_704539-MLM43486948950_092020-O.webp"
-        ],
-        "price": "100 USD"
-    },
-    {
         "name": "Laptop Hp 14 Amd Ryzen 3 4gb",
         "badge": "Usado",
         "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_670319-MLM44998682431_022021-O.webp"
+            {
+                "url": "https://http2.mlstatic.com/D_NQ_NP_696461-MLA44940111957_022021-O.webp",
+                "message": "Mira la foto principal"
+            },
+            {
+                "url": "https://http2.mlstatic.com/D_NQ_NP_925370-MLA44940111958_022021-O.webp",
+                "message": "Mira la foto de lado"
+            }
         ],
-        "price": "100 USD"
-    },
-    {
-        "name": "Sillon Oficina, Homeoffice",
-        "badge": "Usado",
-        "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_772603-MLM41493832492_042020-O.webp"
-        ],
-        "price": "100 USD"
-    },
-    {
-        "name": "Zte Blade A3 2020 4g",
-        "badge": "Usado",
-        "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_786600-MLM44018537851_112020-O.webp"
-        ],
-        "price": "100 USD"
-    },
-    {
-        "name": "Reloj Inteligente Deportivo Impermeable Con Bluetooth",
-        "badge": "Nuevo",
-        "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_610800-MLM43278257447_082020-O.webp"
-        ],
-        "price": "100 USD"
-    },
-    {
-        "name": "Vestido Camisero",
-        "badge": "Nuevo",
-        "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_665989-MLM45408574874_042021-O.webp"
-        ],
-        "price": "100 USD"
+        "id": "002",
+        "price": "100 USD",
+        "ws": {
+            "main_message": [
+                "*Hola 👋 un gusto saludarte*, \n",
+                "Es es un articulo de buena calidad y aun precio muy accesible",
+                "Te cuento las especificaciones de esto",
+                "Peso del paquete: 29 kg Medidas: 149 x 69 x 135 cm Material: melamina Modelo: BE 38-06 Garantía: 1 año defecto de fabrica",
+                "Condición: Nuevo Color: Blanco Nombre de color: Blanco EAN: 789850026663 GTIN: 7898500266636",
+                "País de producción: Brazil  SKU: BE 38-06",
+                "¿Quieres que te llamemos? responde *SI* o *NO*"
+            ],
+            "trigger_ok": [
+                "si",
+                "Ok",
+                "yes"
+            ]
+        }
     }
 ]

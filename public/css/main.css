@@ -49,8 +49,12 @@ body{
 }
 
 .image-bg:hover{
-    box-shadow: 0 0 10px #b0b0b03b;
+    transition: all ease 150ms;
+    box-shadow: -1px 5px 20px 7px #1919191a;
     border: solid 1px #0000000a;
+    transform: scale(1.1);
+    z-index: 2;
+    background-color: white;
 }
 
 .image-bg img{
@@ -73,4 +77,25 @@ body{
     text-align: center;
     padding: 1rem .25rem;
     font-weight: 600;
+}
+
+.wrapper-qr{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.wrapper-qr .inside-image{
+    box-shadow:
+  0 2.4px 10px rgba(0, 0, 0, 0.03),
+  0 19px 80px rgba(0, 0, 0, 0.06)
+;
+}
+.wrapper-text{
+    padding: 1rem .5rem;
+    text-align: center;
+}
+
+.inside-image img{
+    width: 30rem;
 }
